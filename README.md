@@ -8,3 +8,7 @@ Fruit Spawn is a Chrome extension that spawns a bunch of fruit emojis on website
 Credit goes to [/u/346pm](https://www.reddit.com/user/346pm) and their post [I am the best webdev](https://www.reddit.com/r/javascript/comments/7f9812/i_am_the_best_webdev/) on Reddit.
 
 I based this off their code, but modified and improved upon it in many ways, and turned it into a Chrome extension!
+
+## TACOS 🌮🌮🌮
+Well okay, tacos are not a fruit but stil...
+![Taco spawn screenshot](https://raw.githubusercontent.com/Booligoosh/fruit-spawn/master/media/screenshot_tacos_1.png)
