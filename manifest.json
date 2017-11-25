@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Fruit Spawn",
+    "version": "1.0.0",
+    "description": "Cover your internet in fruit. And tacos.",
+    "icons": {
+        "16": "images/icon16.png",
+        "19": "images/icon19.png",
+        "38": "images/icon38.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png",
+        "160": "images/icon160.png"
+    },
+    //"content_scripts": [
+    //    {
+    //        "matches": ["*://*/*"],
+    //        "js": ["script.js"],
+    //        "run_at": "document_end"
+    //	}
+    //],
+    "browser_action": {
+        "default_icon": "images/icon160.png"
+    },
+    /*"background": {
+        "persistent": false,
+        "scripts": ["background.js"],
+        "run_at": "document_end"
+    }*/
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "activeTab"
+  ]
+}
